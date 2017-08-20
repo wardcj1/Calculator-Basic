@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator-Basic</title>
+    <!-- Added link to the jQuery Library -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="app.js"></script>
+    <link rel="shortcut icon" href="images/calc-icon.png">
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="">
+        <h3 class="text-center">Calculator</h3>
+    </div>
+    <div class="container">
+        <div class="row">
+            <!-- Result Panel -->
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-lg-5 display" id="first-number"></div>
+                            <div class="col-lg-2 operator" id="operator"></div>
+                            <div class="col-lg-5 display" id="second-number"></div>
+                        </div>
+                        <div class="row">
+                            <div class="panel-heading">
+                            </div>
+                            <div class="col-lg-12 result" id="result"></div>
+                        </div>
+                    </div>
+                </div>
+              </div>  
+              <div class="col-lg-3"></div>
+        </div>
+        <div class="row calcBody">
+                <!-- Calculator Panel -->
+                <div>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <button id="button-9" class="btn btn-primary number" value="9">
+                                <h1>9</h1></button>
+                            <button id="button-8" class="btn btn-primary number" value="8">
+                                <h1>8</h1></button>
+                            <button id="button-7" class="btn btn-primary number" value="7">
+                                <h1>7</h1></button>
+                            </button>
+                            <button id="button-clear" class="btn btn-default clear" value="clear">
+                                <h1>CE</h1></button>
+                            <br>
+                            <br>
+                            <button id="button-4" class="btn btn-primary number" value="4">
+                                <h1>4</h1></button>
+                            <button id="button-5" class="btn btn-primary number" value="5">
+                                <h1>5</h1></button>
+                            <button id="button-6" class="btn btn-primary number" value="6">
+                                <h1>6</h1></button>
+                            <button id="button-plus" class="btn btn-danger operator" value="plus">
+                                <h1>+</h1></button>
+                            <button id="button-minus" class="btn btn-danger operator" value="minus">
+                                <h1>&minus;</h1></button>
+                            <button id="button-power" class="btn btn-warning operator" value="power">
+                                <h1>^</h1></button>
+                            <br>
+                            <br>
+                            <button id="button-1" class="btn btn-primary number" value="1">
+                                <h1>1</h1></button>
+                            <button id="button-2" class="btn btn-primary number" value="2">
+                                <h1>2</h1></button>
+                            <button id="button-3" class="btn btn-primary number" value="3">
+                                <h1>3</h1></button>
+                            <button id="button-multiply" class="btn btn-danger operator" value="times">
+                                <h1>&times;</h1></button>
+                            <button id="button-divide" class="btn btn-danger operator" value="divide">
+                                <h1>&divide;</h1></button>
+                            <button id="button-sqrt" class="btn btn-warning operator" value="sqrt">
+                                <h1>&radic;</h1></button>
+                            <br>
+                            <br>
+                            <button id="button-0" class="btn btn-primary number" value="0">
+                                <h1>0</h1></button>
+                            <button id="button-equal" class="btn btn-success equal" value="equals">
+                                <h1>=</h1></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
