@@ -1,7 +1,7 @@
 # Calculator-Basic
 A calculator with basic operations powered by jQuery
  
-![ScreenShot](/public/img/calc_ss.png)
+![ScreenShot](public/images/calc_ss.png)
 
 ## Live Link
  - https://wardcj1.github.io/Calculator-Basic
